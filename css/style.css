@@ -471,7 +471,7 @@ a:focus {
     top: 11px;
     right: -30px;
     left: -30px;
-    background: #F7CAC9;
+    background: #FFC074;
     z-index: -1;
 }
 
@@ -1129,13 +1129,13 @@ a:focus {
     margin-top: -70px;
     padding: 75px 25px 25px 25px;
     text-align: center;
-    background: #ffffff;
+    background: #FFC074;
     border: 1px solid rgba(0, 0, 0, .07);
 }
 
 .testimonial .testimonial-item p {
     font-size: 16px;
-    color: #666666;
+    color: #0A1931;
 }
 
 .testimonial .testimonial-text h3 {
@@ -1145,7 +1145,7 @@ a:focus {
 }
 
 .testimonial .testimonial-text h4 {
-    color: #666666;
+    color: #0A1931;
     font-size: 14px;
     margin-bottom: 0;
 }
@@ -1155,11 +1155,11 @@ a:focus {
 }
 
 .testimonial .owl-item.center .testimonial-text {
-    background: #343148;
+    background: #0A1931;
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
-    color: #F7CAC9;
+    color: #FFC074;
 }
 
 .testimonial .owl-item.center .testimonial-text p,
@@ -1178,7 +1178,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #F7CAC9;
+    background: #FFC074;
 }
 
 .testimonial .owl-dot.active {
