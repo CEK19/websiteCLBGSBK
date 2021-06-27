@@ -1132,6 +1132,7 @@ a:focus {
     text-align: center;
     background: #FFC074;
     border: 1px solid rgba(0, 0, 0, .07);
+    height: 250px;
 }
 
 .testimonial .testimonial-item p {
