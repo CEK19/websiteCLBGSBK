@@ -877,13 +877,13 @@ a:focus {
 
 .price .price-header {
     padding: 30px;
-    background: #F7CAC9;
+    background: #FFC074;
     color: #343148;
 }
 
 .price .price-item.featured-item .price-header {
     background: #343148;
-    color: #F7CAC9;
+    color: #FFC074;
 }
 
 .price .price-status {
@@ -900,8 +900,9 @@ a:focus {
     text-align: center;
     color: #343148;
     font-size: 14px;
+    font-weight: bold;
     line-height: 14px;
-    background: #F7CAC9;
+    background: #FFC074;
 }
 
 .price .price-title h2 {
@@ -931,7 +932,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #F7CAC9;
+    color: #FFC074;
 }
 
 .price .price-body {
@@ -968,19 +969,19 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: #F7CAC9;
+    background: #FFC074;
     transition: .3s;
 }
 
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
-    color: #F7CAC9;
+    color: #FFC074;
     background: #343148;
 }
 
 .price .price-item.featured-item .price-action a:hover {
     color: #343148;
-    background: #F7CAC9;
+    background: #FFC074;
 }
 
 
