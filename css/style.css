@@ -1144,12 +1144,20 @@ a:focus {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .testimonial .testimonial-text h4 {
     color: #0A1931;
     font-size: 14px;
-    margin-bottom: 0;
+    margin-bottom: 0;  
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .testimonial .owl-item.center img {
