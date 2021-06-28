@@ -1,6 +1,12 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+:root {
+    --orange-main: #FF8C00;
+    --orange-palest: #FFAF4D;
+    --orange-pretty: #FFC074;
+}
+
 body {
     color: #797979;
     background: #ffffff;
@@ -24,7 +30,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #F7CAC9;
+    color: var(--orange-pretty);
     outline: none;
     text-decoration: none;
 }
@@ -41,7 +47,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #F7CAC9;
+    background: var(--orange-pretty);
     width: 44px;
     height: 44px;
     text-align: center;
@@ -58,7 +64,7 @@ a:focus {
 }
 
 .back-to-top:hover i {
-    color: #F7CAC9;
+    color: var(--orange-pretty);
 }
 
 .back-to-top i {
@@ -273,7 +279,7 @@ a:focus {
     width: 100%;
     margin-bottom: 45px;
     padding: 90px 0;
-    background: #F7CAC9;
+    background: var(--orange-pretty);
     overflow: hidden;
 }
 
@@ -318,7 +324,7 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #F7CAC9;
+    color: var(--orange-pretty);
     background: #343148;
     border-radius: 0;
     transition: .3s;
@@ -396,7 +402,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: #F7CAC9;
+    background: var(--orange-pretty);
 }
 
 .page-header h2 {
@@ -471,7 +477,7 @@ a:focus {
     top: 11px;
     right: -30px;
     left: -30px;
-    background: #FFC074;
+    background: var(--orange-pretty);
     z-index: -1;
 }
 
@@ -526,7 +532,7 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #F7CAC9;
+    color: var(--orange-pretty);
     background: #343148;
     border-radius: 0;
     transition: .3s;
@@ -534,7 +540,7 @@ a:focus {
 
 .about .about-text a.btn:hover {
     color: #343148;
-    background: #F7CAC9;
+    background: var(--orange-pretty);
 }
 
 @media (max-width: 767.98px) {
@@ -598,7 +604,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #F7CAC9;
+    background: var(--orange-pretty);
     border-radius: 50%;
     animation: pulse-border 2000ms ease-out infinite;
 }
@@ -613,7 +619,7 @@ a:focus {
     display: block;
     width: 80px;
     height: 80px;
-    background: #F7CAC9;
+    background: var(--orange-pretty);
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -638,7 +644,7 @@ a:focus {
 
 .service .service-item:hover h3,
 .service .service-item.active h3 {
-    color: #F7CAC9;
+    color: var(--orange-pretty);
 }
 
 .service .service-item p {
@@ -799,7 +805,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: linear-gradient(rgba(247, 202, 201, .7), rgba(247, 202, 201, .7)), url(../img/discount-bg.png);
+    background: linear-gradient(rgba(255, 192, 116, .7), rgba(179, 116, 40, .7)), url(../img/discount-bg.png);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -825,7 +831,7 @@ a:focus {
 }
 
 .discount .section-header h2 span {
-    color: #F32B56;
+    color: var(--orange-main);
     font-size: 50px;
 }
 
@@ -839,7 +845,7 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #F7CAC9;
+    color: var(--orange-pretty);
     background: #343148;
     border-radius: 0;
     transition: .3s;
@@ -877,13 +883,13 @@ a:focus {
 
 .price .price-header {
     padding: 30px;
-    background: #FFC074;
+    background: var(--orange-pretty);
     color: #343148;
 }
 
 .price .price-item.featured-item .price-header {
     background: #343148;
-    color: #FFC074;
+    color: var(--orange-pretty);
 }
 
 .price .price-status {
@@ -902,7 +908,7 @@ a:focus {
     font-size: 14px;
     font-weight: bold;
     line-height: 14px;
-    background: #FFC074;
+    background: var(--orange-pretty);
 }
 
 .price .price-title h2 {
@@ -932,7 +938,7 @@ a:focus {
 }
 
 .price .price-item.featured-item h2 {
-    color: #FFC074;
+    color: var(--orange-pretty);
 }
 
 .price .price-body {
@@ -969,19 +975,19 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: #FFC074;
+    background: var(--orange-pretty);
     transition: .3s;
 }
 
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
-    color: #FFC074;
+    color: var(--orange-pretty);
     background: #343148;
 }
 
 .price .price-item.featured-item .price-action a:hover {
     color: #343148;
-    background: #FFC074;
+    background: var(--orange-pretty);
 }
 
 
@@ -1130,7 +1136,7 @@ a:focus {
     margin-top: -70px;
     padding: 75px 25px 25px 25px;
     text-align: center;
-    background: #FFC074;
+    background: var(--orange-pretty);
     border: 1px solid rgba(0, 0, 0, .07);
     height: 250px;
 }
@@ -1169,7 +1175,7 @@ a:focus {
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
-    color: #FFC074;
+    color: var(--orange-pretty);
 }
 
 .testimonial .owl-item.center .testimonial-text p,
@@ -1188,7 +1194,7 @@ a:focus {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: #FFC074;
+    background: var(--orange-pretty);
 }
 
 .testimonial .owl-dot.active {
