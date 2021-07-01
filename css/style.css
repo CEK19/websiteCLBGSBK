@@ -198,7 +198,7 @@ a:focus {
 }
 
 .navbar.nav-sticky .navbar-brand span {
-    color: var(--orange-pretty);
+    color: #ffffff;
 }
 
 .navbar.nav-sticky .navbar-brand {
