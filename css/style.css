@@ -76,7 +76,7 @@ a:focus {
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
-.top-bar {
+/*.top-bar {
     position: relative;
     height: 35px;
     background: #343148;
@@ -102,11 +102,11 @@ a:focus {
     height: 35px;
     padding: 0 10px;
     text-align: center;
-    border-left: 1px solid rgba(255, 255, 255, .15);
+    border-left: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 .top-bar .text:last-child {
-    border-right: 1px solid rgba(255, 255, 255, .15);
+    border-right: 1px solid rgba(255, 255, 255, .6);
 }
 
 .top-bar .text i {
@@ -116,7 +116,7 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #eeeeee;
+    color: #ffffff;
     font-weight: 400;
     font-size: 13px;
     letter-spacing: 1px;
@@ -124,7 +124,7 @@ a:focus {
 }
 
 .top-bar .text p {
-    color: #eeeeee;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     margin: 0 0 0 5px;
@@ -145,11 +145,11 @@ a:focus {
     height: 100%;
     font-size: 16px;
     color: #ffffff;
-    border-right: 1px solid rgba(255, 255, 255, .15);
+    border-right: 1px solid rgba(255, 255, 255, .6);
 }
 
 .top-bar .social a:first-child {
-    border-left: 1px solid rgba(255, 255, 255, .15);
+    border-left: 1px solid rgba(255, 255, 255, .6);
 }
 
 .top-bar .social a:hover {
@@ -162,7 +162,7 @@ a:focus {
         padding: 0 60px;
     }
 }
-
+*/
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -187,19 +187,22 @@ a:focus {
     line-height: 0px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     transition: .5s;
     
 }
 
 .navbar .navbar-brand span {
     color: #343148;
-    text-transform: lowercase;
     transition: .5s;
 }
 
 .navbar.nav-sticky .navbar-brand span {
-    color: #ffffff;
+    color: #000000;
+}
+
+.navbar.nav-sticky .navbar-brand {
+    color: #b6a179;
 }
 
 .navbar .navbar-brand img {
@@ -212,7 +215,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
+    color: #343148;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -225,22 +228,22 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #f8f9fa;
+    background: #ecb54e;
 }
 
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
         width: 100%;
-        top: 35px;
+        top: 0px;
         padding: 20px 60px;
-        background: rgba(0, 0, 0, .1) !important;
+        background: rgba(250, 249, 249, 0.1) !important;
         z-index: 9;
     }
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #343148 !important;
+        background: #edecf3 !important;
     }
     
     .navbar a.nav-link {
@@ -254,20 +257,51 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #343148 !important;
+        background: #f6f6f8 !important;
     }
     
     .navbar .navbar-brand span {
-        color: #ffffff;
+        color: #343148;
     }
     
+    .navbar .navbar-brand {
+        color: #343148;
+    }
+
+    .navbar.nav-sticky .navbar-brand span {
+        color: #80510a;
+    }
+
+    .navbar.nav-sticky .navbar-brand {
+        color: #343148;
+    }
+
     .navbar a.nav-link {
         padding: 5px;
+    }
+
+    .navbar .navbar-nav {
+        background-color: #5a3607;
     }
     
     .navbar .dropdown-menu {
         box-shadow: none;
+        background-color: #e9af71;
     }
+
+    .navbar-dark .navbar-nav .nav-link,
+    .navbar-dark .navbar-nav .nav-link:focus,
+    .navbar-dark .navbar-nav .nav-link:hover,
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: #ffffff;
+    }
+
+    /*Change color of button nav*/
+    .navbar-toggler {
+        background-color: #d0cccc;
+        
+    }
+
 }
 
 
@@ -1940,7 +1974,6 @@ a:focus {
 
 .footer .footer-info .footer-logo span {
     color: #ffffff;
-    text-transform: lowercase;
 }
 
 .footer .footer-info h3 {
