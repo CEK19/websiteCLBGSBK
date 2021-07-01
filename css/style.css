@@ -198,11 +198,11 @@ a:focus {
 }
 
 .navbar.nav-sticky .navbar-brand span {
-    color: #000000;
+    color: var(--orange-pretty);
 }
 
 .navbar.nav-sticky .navbar-brand {
-    color: #b6a179;
+    color: var(--orange-pretty);
 }
 
 .navbar .navbar-brand img {
@@ -218,6 +218,14 @@ a:focus {
     color: #343148;
 }
 
+.navbar.nav-sticky .nav-link,
+.navbar.nav-sticky .nav-link:focus,
+.navbar.nav-sticky .nav-link:hover,
+.navbar.nav-sticky .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: var(--orange-pretty);
+}
+
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     background: rgba(256, 256, 256, .1);
@@ -228,7 +236,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #ecb54e;
+    background: var(--orange-pretty);
 }
 
 @media (min-width: 992px) {
@@ -243,7 +251,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #edecf3 !important;
+        background: #343148 !important;
     }
     
     .navbar a.nav-link {
@@ -257,36 +265,32 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #f6f6f8 !important;
+        background: #343148 !important;
     }
     
     .navbar .navbar-brand span {
-        color: #343148;
+        color: var(--orange-main);
     }
     
     .navbar .navbar-brand {
-        color: #343148;
+        color: #ffffff;
     }
 
     .navbar.nav-sticky .navbar-brand span {
-        color: #80510a;
+        color: var(--orange-pretty);
     }
 
     .navbar.nav-sticky .navbar-brand {
-        color: #343148;
+        color: var(--orange-pretty);
     }
 
     .navbar a.nav-link {
         padding: 5px;
     }
 
-    .navbar .navbar-nav {
-        background-color: #5a3607;
-    }
-    
     .navbar .dropdown-menu {
         box-shadow: none;
-        background-color: #e9af71;
+        background-color: var(--orange-pretty);
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -295,13 +299,7 @@ a:focus {
     .navbar-dark .navbar-nav .nav-link.active {
         color: #ffffff;
     }
-
-    /*Change color of button nav*/
-    .navbar-toggler {
-        background-color: #d0cccc;
-        
-    }
-
+    
 }
 
 
