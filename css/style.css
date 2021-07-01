@@ -76,10 +76,10 @@ a:focus {
 /**********************************/
 /********** Top Bar CSS ***********/
 /**********************************/
-.top-bar {
+/*.top-bar {
     position: relative;
     height: 35px;
-    background: #e0e759;
+    background: #343148;
 }
 
 .top-bar .top-bar-left {
@@ -116,7 +116,7 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #0c0b0b;
+    color: #ffffff;
     font-weight: 400;
     font-size: 13px;
     letter-spacing: 1px;
@@ -124,7 +124,7 @@ a:focus {
 }
 
 .top-bar .text p {
-    color: #1b1919;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     margin: 0 0 0 5px;
@@ -162,7 +162,7 @@ a:focus {
         padding: 0 60px;
     }
 }
-
+*/
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -235,7 +235,7 @@ a:focus {
     .navbar {
         position: absolute;
         width: 100%;
-        top: 35px;
+        top: 0px;
         padding: 20px 60px;
         background: rgba(250, 249, 249, 0.1) !important;
         z-index: 9;
@@ -288,7 +288,7 @@ a:focus {
         box-shadow: none;
         background-color: #e9af71;
     }
-    
+
     .navbar-dark .navbar-nav .nav-link,
     .navbar-dark .navbar-nav .nav-link:focus,
     .navbar-dark .navbar-nav .nav-link:hover,
@@ -1974,7 +1974,6 @@ a:focus {
 
 .footer .footer-info .footer-logo span {
     color: #ffffff;
-    text-transform: lowercase;
 }
 
 .footer .footer-info h3 {
