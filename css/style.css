@@ -288,7 +288,7 @@ a:focus {
         box-shadow: none;
         background-color: #e9af71;
     }
-
+    
     .navbar-dark .navbar-nav .nav-link,
     .navbar-dark .navbar-nav .nav-link:focus,
     .navbar-dark .navbar-nav .nav-link:hover,
@@ -296,6 +296,7 @@ a:focus {
         color: #ffffff;
     }
 
+    /*Change color of button nav*/
     .navbar-toggler {
         background-color: #d0cccc;
         
