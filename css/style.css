@@ -1779,7 +1779,53 @@ a:focus {
     list-style-type: none;
 }
 
+.contact .contact-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
 
+.contact .contact-icon i {
+    position: relative;
+    font-size: 40px;
+    color: #343148;
+    z-index: 3;
+}
+
+.contact .contact-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.contact .contact-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}
 
 /*******************************/
 /******* Single Post CSS *******/
