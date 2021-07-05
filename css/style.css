@@ -278,7 +278,7 @@ a:focus {
     }
 
     .navbar.nav-sticky .navbar-brand span {
-        color: var(--orange-pretty);
+        color: #ffffff;
     }
 
     .navbar.nav-sticky .navbar-brand {
@@ -1167,7 +1167,12 @@ a:focus {
 }
 
 .discount .section-header p {
-    color: var(--blue-charcoal);
+    color: #ffffff;
+    background: transparent;
+}
+
+.discount .section-header h2 {
+    color: #ffffff;
     background: transparent;
 }
 
@@ -1176,12 +1181,12 @@ a:focus {
 }
 
 .discount .section-header h2 span {
-    color: var(--orange-main);
+    color: var(--orange-palest);
     font-size: 50px;
 }
 
 .discount .discount-text p {
-    color: #454545;
+    color: #c2c2c2;
 }
 
 .discount .discount-text .btn {
