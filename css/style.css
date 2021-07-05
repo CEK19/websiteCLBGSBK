@@ -981,38 +981,55 @@ a:focus {
     font-size: 16px;
 }
 
-.timeline .timeline-left {
+.timeline-left {
     position: relative;
     margin: 0 auto;
 }
   
-.timeline .timeline-left::after {
+.timeline-left::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 0.25rem;
     background-color: var(--blue-charcoal);
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -3px;
-  }
-
-.timeline .timeline-right .timeline-item a h3 {
-    color: var(--blue-charcoal);
-    padding: 0.75rem 0.25rem;
 }
 
-.timeline .timeline-right .timeline-item a h3:hover {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
-}
-
-.timeline .timeline-item {
-    border: 1rem black;
+/* .timeline .timeline-right .timeline-item {
+    border: 5px black;
     padding: 1.5rem 1rem;
     margin: 2rem 1rem;
     bottom: 2rem;
+} */
+
+.timeline-item {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
 }
+
+.timeline-item:hover {
+    color: white;
+    background: var(--blue-charcoal);
+}
+
+.timeline-item:hover a h3 {
+    color: var(--orange-pretty);
+}
+
+.timeline-item a h3 {
+    padding: 1rem 2rem 0;
+}
+
+.timeline-item p {
+    text-align: justify;
+    padding: 0.5rem 2rem 0;
+}
+
 
 
 
