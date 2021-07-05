@@ -856,7 +856,12 @@ a:focus {
 }
 
 .discount .section-header p {
-    color: #343148;
+    color: #ffffff;
+    background: transparent;
+}
+
+.discount .section-header h2 {
+    color: #ffffff;
     background: transparent;
 }
 
@@ -865,7 +870,7 @@ a:focus {
 }
 
 .discount .section-header h2 span {
-    color: var(--orange-main);
+    color: var(--orange-palest);
     font-size: 50px;
 }
 
