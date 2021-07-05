@@ -981,8 +981,25 @@ a:focus {
     font-size: 16px;
 }
 
+.timeline .timeline-left {
+    position: relative;
+    margin: 0 auto;
+}
+  
+.timeline .timeline-left::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: var(--blue-charcoal);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
 .timeline .timeline-right .timeline-item a h3 {
     color: var(--blue-charcoal);
+    padding: 0.75rem 0.25rem;
 }
 
 .timeline .timeline-right .timeline-item a h3:hover {
@@ -991,7 +1008,9 @@ a:focus {
 }
 
 .timeline .timeline-item {
-    border: black;
+    border: 1rem black;
+    padding: 1.5rem 1rem;
+    margin: 2rem 1rem;
     bottom: 2rem;
 }
 
