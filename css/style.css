@@ -277,7 +277,7 @@ a:focus {
     }
 
     .navbar.nav-sticky .navbar-brand span {
-        color: var(--orange-pretty);
+        color: #ffffff;
     }
 
     .navbar.nav-sticky .navbar-brand {
@@ -1152,7 +1152,7 @@ a:focus {
 }
 
 .discount .discount-text p {
-    color: #454545;
+    color: #c2c2c2;
 }
 
 .discount .discount-text .btn {
