@@ -4,6 +4,8 @@
 - Ngô Lê Quốc Dũng aka codeuntilcold
 - Nguyễn Trọng Nhân aka CEK19
 - Nguyễn Hoài Thương aka nhthuong2208
+- Trần Phương Tùng aka MintTea
+- Nguyễn Phạm Ngọc Quý aka Cố vấn tối cao
 
 Đây chỉ là demo thui kakaka 🔥
 
