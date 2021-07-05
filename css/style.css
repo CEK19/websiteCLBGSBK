@@ -1007,8 +1007,9 @@ a:focus {
     position: relative;
     width: 100%;
     text-align: left;
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     border: 1px solid rgba(0, 0, 0, .07);
+    padding: 3rem 2rem;
     transition: .3s;
 }
 
@@ -1022,16 +1023,49 @@ a:focus {
 }
 
 .timeline-item a h3 {
-    padding: 1rem 2rem 0;
+    margin-bottom: 1.5rem;
 }
 
 .timeline-item p {
     text-align: justify;
-    padding: 0.5rem 2rem 0;
+    /* padding: 0 2rem 2rem; */
 }
 
+.timeline-item img {
+    width: 100%;
+}
 
+/* The circles on the timeline */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    left: -4.9rem;
+    background-color: white;
+    border: 0.5rem solid var(--orange-main);
+    top: 1.5rem;
+    border-radius: 50%;
+    z-index: 1;
+}
 
+@media (max-width: 768px) {
+    .timeline-item::before {
+        left: -3.15rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .timeline-item::before {
+        left: -3.75rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .timeline-item::before {
+        left: -4.6rem;
+    }
+}
 
 
 
