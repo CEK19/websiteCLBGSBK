@@ -5,6 +5,7 @@
     --orange-main: #FF8C00;
     --orange-palest: #FFAF4D;
     --orange-pretty: #FFC074;
+    --blue-charcoal: #343148;
 }
 
 body {
@@ -19,7 +20,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 a {
@@ -60,7 +61,7 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .back-to-top:hover i {
@@ -68,7 +69,7 @@ a:focus {
 }
 
 .back-to-top i {
-    color: #343148;
+    color: var(--blue-charcoal);
     padding-top: 10px;
 }
 
@@ -79,7 +80,7 @@ a:focus {
 /*.top-bar {
     position: relative;
     height: 35px;
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .top-bar .top-bar-left {
@@ -193,12 +194,12 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-    color: #343148;
+    color: var(--blue-charcoal);
     transition: .5s;
 }
 
 .navbar.nav-sticky .navbar-brand span {
-    color: var(--orange-pretty);
+    color: #ffffff;
 }
 
 .navbar.nav-sticky .navbar-brand {
@@ -215,7 +216,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 .navbar.nav-sticky .nav-link,
@@ -251,7 +252,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #343148 !important;
+        background: var(--blue-charcoal) !important;
     }
     
     .navbar a.nav-link {
@@ -265,7 +266,7 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #343148 !important;
+        background: var(--blue-charcoal) !important;
     }
     
     .navbar .navbar-brand span {
@@ -340,14 +341,14 @@ a:focus {
 }
 
 .hero .hero-text h1 {
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero .hero-text p {
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -358,13 +359,13 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     border-radius: 0;
     transition: .3s;
 }
 
 .hero .hero-btn .btn:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: #ffffff;
 }
 
@@ -440,7 +441,7 @@ a:focus {
 
 .page-header h2 {
     position: relative;
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 60px;
     font-weight: 700;
 }
@@ -449,7 +450,7 @@ a:focus {
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 .page-header a:hover {
@@ -464,7 +465,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 .page-header a:last-child::after {
@@ -567,13 +568,13 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     border-radius: 0;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
@@ -606,7 +607,7 @@ a:focus {
 
 .service .service-item:hover,
 .service .service-item.active {
-    background: #343148;
+    background: var(--blue-charcoal);
     color: #ffffff;
 }
 
@@ -624,7 +625,7 @@ a:focus {
 .service .service-icon i {
     position: relative;
     font-size: 50px;
-    color: #343148;
+    color: var(--blue-charcoal);
     z-index: 3;
 }
 
@@ -686,6 +687,316 @@ a:focus {
     font-size: 16px;
 }
 
+/*******************************/
+/********* Standard CSS *********/
+/*******************************/
+.standard {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.standard .standard-item {
+    position: relative;
+    width: 355px;
+    height: 355px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.standard .standard-item:hover,
+.standard .standard-item.active {
+    background: var(--blue-charcoal);
+    color: #ffffff;
+}
+
+.standard .standard-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.standard .standard-icon i {
+    position: relative;
+    font-size: 50px;
+    color: var(--blue-charcoal);
+    z-index: 3;
+}
+
+.standard .standard-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.standard .standard-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.standard .standard-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.standard .standard-item:hover h3,
+.standard .standard-item.active h3 {
+    color: var(--orange-pretty);
+}
+
+.standard .standard-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/*******************************/
+/********* CONTACT-TO-FIND CSS *********/
+/*******************************/
+.contact-to-find {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.contact-to-find .contact-to-find-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-to-find .contact-to-find-header,
+.contact-to-find .contact-to-find-body,
+.contact-to-find .contact-to-find-footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.contact-to-find .contact-to-find-header {
+    padding: 30px;
+    background: var(--orange-pretty);
+    color: var(--blue-charcoal);
+}
+
+.contact-to-find .contact-to-find-item.featured-item .contact-to-find-header {
+    background: var(--blue-charcoal);
+    color: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-status {
+    margin-top: -30px;
+    text-align: right;
+}
+
+.contact-to-find .contact-to-find-status span {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    right: -30px;
+    padding: 7px 10px;
+    text-align: center;
+    color: var(--blue-charcoal);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    background: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-title h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.contact-to-find .contact-to-find-prices h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.contact-to-find .contact-to-find-prices h2 small {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-left: -12px;
+}
+
+.contact-to-find .contact-to-find-prices h2 span {
+    margin-left: 1px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-to-find .contact-to-find-item.featured-item h2 {
+    color: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-body {
+    padding: 15px 0 20px 0;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-bottom: none;
+}
+
+.contact-to-find .contact-to-find-description ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.contact-to-find .contact-to-find-description ul li {
+    padding: 7px;
+    margin-left: 13%;
+    text-align: left;
+}
+
+.contact-to-find .contact-to-find-description ul li:last-child {
+    border: none;
+}
+
+.contact-to-find .contact-to-find-description hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-to-find .contact-to-find-action {
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-top: none;
+}
+
+.contact-to-find .contact-to-find-action a.btn {
+    margin-bottom: 30px;
+    padding: 12px 20px;
+    color: var(--blue-charcoal);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+    background: var(--orange-pretty);
+    transition: .3s;
+}
+
+.contact-to-find .contact-to-find-action a:hover,
+.contact-to-find .contact-to-find-item.featured-item .contact-to-find-action a {
+    color: var(--orange-pretty);
+    background: var(--blue-charcoal);
+}
+
+.contact-to-find .contact-to-find-item.featured-item .contact-to-find-action a:hover {
+    color: var(--blue-charcoal);
+    background: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.contact-to-find .contact-to-find-icon i {
+    position: relative;
+    font-size: 50px;
+    color: var(--blue-charcoal);
+    z-index: 3;
+}
+
+.contact-to-find .contact-to-find-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.contact-to-find .contact-to-find-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+/********************************/
+/********* Activity CSS *********/
+/********************************/
+
+.activity {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.activity p {
+    font-size: 16px;
+}
+
+.timeline .timeline-right .timeline-item a h3 {
+    color: var(--blue-charcoal);
+}
+
+.timeline .timeline-right .timeline-item a h3:hover {
+    color: var(--orange-pretty);
+    background: var(--blue-charcoal);
+}
+
+.timeline .timeline-item {
+    border: black;
+    bottom: 2rem;
+}
+
+
+
 
 
 /*******************************/
@@ -709,18 +1020,18 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 6px 12px;
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 14px;
     font-weight: 400;
     border-radius: 0;
     background: none;
-    border: 1px solid #343148;
+    border: 1px solid var(--blue-charcoal);
     transition: .3s;
 }
 
 .class #class-filter li:hover,
 .class #class-filter li.filter-active {
-    background: #343148;
+    background: var(--blue-charcoal);
     color: var(--orange-pretty);
 }
 
@@ -798,7 +1109,7 @@ a:focus {
     justify-content: center;
     font-size: 30px;
     font-weight: 100;
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
     border-radius: 40px;
     transition: .3s;
@@ -806,7 +1117,7 @@ a:focus {
 
 .class .class-wrap:hover .class-teacher a {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .class .class-meta {
@@ -822,7 +1133,7 @@ a:focus {
 
 .class .class-meta p i {
     margin-right: 5px;
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 .class .class-meta p:first-child {
@@ -856,7 +1167,7 @@ a:focus {
 }
 
 .discount .section-header p {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: transparent;
 }
 
@@ -880,13 +1191,13 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     border-radius: 0;
     transition: .3s;
 }
 
 .discount .discount-text .btn:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: #ffffff;
 }
 
@@ -918,11 +1229,11 @@ a:focus {
 .price .price-header {
     padding: 30px;
     background: var(--orange-pretty);
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 .price .price-item.featured-item .price-header {
-    background: #343148;
+    background: var(--blue-charcoal);
     color: var(--orange-pretty);
 }
 
@@ -938,7 +1249,7 @@ a:focus {
     right: -30px;
     padding: 7px 10px;
     text-align: center;
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 14px;
     font-weight: bold;
     line-height: 14px;
@@ -1004,7 +1315,7 @@ a:focus {
 .price .price-action a.btn {
     margin-bottom: 30px;
     padding: 12px 20px;
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -1016,11 +1327,11 @@ a:focus {
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .price .price-item.featured-item .price-action a:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
@@ -1076,12 +1387,12 @@ a:focus {
     border-radius: 40px;
     font-size: 16px;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     opacity: 0;
 }
 
 .team .team-social a:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
@@ -1205,7 +1516,7 @@ a:focus {
 }
 
 .testimonial .owl-item.center .testimonial-text {
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
@@ -1232,7 +1543,7 @@ a:focus {
 }
 
 .testimonial .owl-dot.active {
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 
@@ -1292,7 +1603,7 @@ a:focus {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343148;
+    color: var(--blue-charcoal);
     transition: .3s;
 }
 
@@ -1338,27 +1649,27 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     font-size: 22px;
     transition: .3s;
 }
 
 .blog .owl-nav .owl-prev:hover,
 .blog .owl-nav .owl-next:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
 .blog .pagination .page-link {
-    color: #343148;
+    color: var(--blue-charcoal);
     border-radius: 0;
-    border-color: #343148;
+    border-color: var(--blue-charcoal);
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .blog .pagination .disabled .page-link {
@@ -1387,18 +1698,18 @@ a:focus {
     display: inline-block;
     margin: 5px;
     padding: 6px 12px;
-    color: #343148;
+    color: var(--blue-charcoal);
     font-size: 14px;
     font-weight: 400;
     border-radius: 0;
     background: none;
-    border: 1px solid #343148;
+    border: 1px solid var(--blue-charcoal);
     transition: .3s;
 }
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    background: #343148;
+    background: var(--blue-charcoal);
     color: var(--orange-pretty);
 }
 
@@ -1451,7 +1762,7 @@ a:focus {
     height: 50px;
     padding: 12px 0;
     font-size: 25px;
-    color: #343148;
+    color: var(--blue-charcoal);
     margin-bottom: 15px;
     border: 1px solid var(--orange-pretty);
     border-radius: 50px;
@@ -1486,13 +1797,13 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
@@ -1502,7 +1813,53 @@ a:focus {
     list-style-type: none;
 }
 
+.contact .contact-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
 
+.contact .contact-icon i {
+    position: relative;
+    font-size: 40px;
+    color: var(--blue-charcoal);
+    z-index: 3;
+}
+
+.contact .contact-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.contact .contact-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}
 
 /*******************************/
 /******* Single Post CSS *******/
@@ -1540,7 +1897,7 @@ a:focus {
 
 .single .single-tags a:hover {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .single .single-bio {
@@ -1653,7 +2010,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
     font-size: 16px;
     transition: .3s;
@@ -1662,7 +2019,7 @@ a:focus {
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .single .single-comment {
@@ -1719,7 +2076,7 @@ a:focus {
 .single .comment-text .btn {
     padding: 3px 10px;
     font-size: 14px;
-    color: #343148;
+    color: var(--blue-charcoal);
     background: #dddddd;
     border-radius: 0;
 }
@@ -1755,11 +2112,11 @@ a:focus {
 .single .comment-form .btn {
     padding: 15px 30px;
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .single .comment-form .btn:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
@@ -1830,7 +2187,7 @@ a:focus {
 }
 
 .sidebar .search-widget .btn:hover {
-    color: #343148;
+    color: var(--blue-charcoal);
 }
 
 .sidebar .sidebar-widget .recent-post {
@@ -1843,13 +2200,13 @@ a:focus {
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
     border-radius: 0;
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
-    color: #343148;
+    color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
 
@@ -1916,7 +2273,7 @@ a:focus {
 
 .single .tag-widget a:hover {
     color: var(--orange-pretty);
-    background: #343148;
+    background: var(--blue-charcoal);
 }
 
 .sidebar .image-widget {
