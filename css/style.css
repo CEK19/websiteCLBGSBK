@@ -2269,22 +2269,21 @@ a:focus {
 /*******************************/
 .footer {
     position: relative;
-    margin-top: 45px;
+    margin-top: 100px;
     background: #000000;
 }
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    /*background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain;*/
 }
 
 .footer .footer-info {
     position: relative;
     width: 100%;
-    text-align: center;
 }
 
 .footer .footer-info .footer-logo {
@@ -2311,8 +2310,16 @@ a:focus {
 
 .footer .footer-menu {
     width: 100%;
-    display: flex;
-    justify-content: center;
+}
+
+.footer .footer-menu h1 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 45px;
+
 }
 
 .footer .footer-menu p {
@@ -2321,7 +2328,7 @@ a:focus {
     font-weight: 600;
     line-height: 20px;
     padding: 0 10px;
-    border-right: 1px solid #ffffff;
+    /*border-right: 1px solid #ffffff;*/
 }
 
 .footer .footer-menu p:last-child {
@@ -2333,8 +2340,18 @@ a:focus {
     margin-top: 5px;
 }
 
+.footer .footer-social h1 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
 .footer .footer-social a {
     display: inline-block;
+    color: var(--orange-pretty);
 }
 
 .footer .footer-social a i {
@@ -2387,4 +2404,6 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+
+
 }
