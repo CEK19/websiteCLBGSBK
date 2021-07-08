@@ -1,6 +1,30 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+#introImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#clubIntro {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 250px;
+    margin-left: 250px;
+}
+
+#destiny {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 16px;
+}
+
+
 :root {
     --orange-main: #FF8C00;
     --orange-palest: #FFAF4D;
@@ -15,10 +39,10 @@ body {
 }
 
 h1,
-h2, 
-h3, 
+h2,
+h3,
 h4,
-h5, 
+h5,
 h6 {
     color: var(--blue-charcoal);
 }
@@ -190,7 +214,7 @@ a:focus {
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: .5s;
-    
+
 }
 
 .navbar .navbar-brand span {
@@ -249,12 +273,12 @@ a:focus {
         background: rgba(250, 249, 249, 0.1) !important;
         z-index: 9;
     }
-    
+
     .navbar.nav-sticky {
         padding: 10px 60px;
         background: var(--blue-charcoal) !important;
     }
-    
+
     .navbar a.nav-link {
         padding: 8px 15px;
         font-size: 14px;
@@ -263,16 +287,16 @@ a:focus {
     }
 }
 
-@media (max-width: 991.98px) {   
+@media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
         background: var(--blue-charcoal) !important;
     }
-    
+
     .navbar .navbar-brand span {
         color: var(--orange-main);
     }
-    
+
     .navbar .navbar-brand {
         color: #ffffff;
     }
@@ -300,7 +324,7 @@ a:focus {
     .navbar-dark .navbar-nav .nav-link.active {
         color: #ffffff;
     }
-    
+
 }
 
 
@@ -377,15 +401,15 @@ a:focus {
     .hero .hero-text {
         padding: 0 15px;
     }
-    
+
     .hero .hero-text h1 {
         font-size: 35px;
     }
-    
+
     .hero .hero-text p {
         font-size: 16px;
     }
-    
+
     .hero .hero-text .btn {
         padding: 12px 30px;
         letter-spacing: 1px;
@@ -397,11 +421,11 @@ a:focus {
         font-size: 30px;
         font-weight: 600;
     }
-    
+
     .hero .hero-text p {
         font-size: 14px;
     }
-    
+
     .hero .hero-text .btn {
         padding: 10px 15px;
         font-weight: 400;
@@ -414,11 +438,11 @@ a:focus {
         font-size: 25px;
         font-weight: 600;
     }
-    
+
     .hero .hero-text p {
         font-size: 14px;
     }
-    
+
     .hero .hero-text .btn {
         padding: 8px 10px;
         font-size: 12px;
@@ -476,7 +500,7 @@ a:focus {
     .page-header h2 {
         font-size: 35px;
     }
-    
+
     .page-header a {
         font-size: 18px;
     }
@@ -553,7 +577,7 @@ a:focus {
     width: 100%;
     height: 100%;
     object-fit: cover;
-	border-radius: 2rem;
+    border-radius: 2rem;
 }
 
 .about .about-text p {
@@ -660,14 +684,15 @@ a:focus {
 }
 
 @keyframes pulse-border {
-  0% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.3);
-    opacity: 0;
-  }
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.3);
+        opacity: 0;
+    }
 }
 
 .service .service-item h3 {
@@ -873,7 +898,7 @@ a:focus {
 .contact-to-find .contact-to-find-description ul {
     margin: 0;
     padding: 0;
-    list-style:none;
+    list-style: none;
 }
 
 .contact-to-find .contact-to-find-description ul li {
@@ -1123,8 +1148,8 @@ a:focus {
 
 .class .class-img img {
     position: relative;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -1579,7 +1604,7 @@ a:focus {
 .testimonial .testimonial-text h4 {
     color: #0A1931;
     font-size: 14px;
-    margin-bottom: 0;  
+    margin-bottom: 0;
     position: absolute;
     bottom: 2%;
     left: 50%;
@@ -1803,8 +1828,8 @@ a:focus {
 
 .portfolio img {
     position: relative;
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: .5s;
 }
@@ -2305,11 +2330,11 @@ a:focus {
 }
 
 .sidebar .category-widget ul li {
-    margin: 0 0 12px 22px; 
+    margin: 0 0 12px 22px;
 }
 
 .sidebar .category-widget ul li:last-child {
-    margin-bottom: 0; 
+    margin-bottom: 0;
 }
 
 .sidebar .category-widget ul li a {
@@ -2486,6 +2511,7 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+
     .footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
