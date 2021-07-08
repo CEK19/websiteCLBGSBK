@@ -436,7 +436,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: var(--orange-pretty);
+    background: linear-gradient(to bottom right, var(--orange-palest), var(--orange-pretty));
 }
 
 .page-header h2 {
@@ -2379,7 +2379,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../tempImg/discount_mini.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
