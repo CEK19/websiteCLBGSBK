@@ -1189,13 +1189,13 @@ a:focus {
 .discount {
     position: relative;
     width: 100%;
-    margin: 45px 0;
+    margin: 45px 0 100px;
     padding: 90px 0;
     background: linear-gradient(rgba(255, 192, 116, .7), rgba(179, 116, 40, .7)), url(../tempImg/discount_mini.JPG);
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .discount .container {
@@ -2350,10 +2350,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../tempImg/discount_mini.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9));
 }
 
 .footer .footer-info {
