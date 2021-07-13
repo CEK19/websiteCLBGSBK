@@ -944,7 +944,7 @@ a:focus {
     margin-bottom: 2rem;
     border: 1px solid rgba(0, 0, 0, .07);
     padding: 1.5rem 2rem;
-    background-image: url(../tempImg/gthieu_mini.jpg);
+    /* background-image: url(../tempImg/gthieu_mini.jpg); */
 }
 
 .timeline-item:hover {
