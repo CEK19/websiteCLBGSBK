@@ -2366,7 +2366,8 @@ a:focus {
 .pre-footer h3 {
     color: var(--orange-pretty);
     font-weight: 650;
-    margin-bottom: 1rem;
+    margin: 0.5rem 0 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .pre-footer h2 {
@@ -2385,6 +2386,7 @@ a:focus {
 }
 
 .pre-footer i {
+    width: 1.25rem;
     color: var(--orange-palest);
 }
 
@@ -2460,8 +2462,8 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }*/
-    /* .pre-footer {
-        
-    } */
+    .pre-footer h3 {
+        margin: 1rem 0 1rem;
+    }
 }
 
