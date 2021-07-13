@@ -27,6 +27,36 @@
     </head>
 
     <body>
+        <!--SCRIPT FACEBOOK MESSENGER START-->
+            <!-- Messenger Chat plugin Code -->
+            <div id="fb-root"></div>
+
+            <!-- Your Chat plugin code -->
+            <div id="fb-customer-chat" class="fb-customerchat">
+            </div>
+
+            <script>
+            var chatbox = document.getElementById('fb-customer-chat');
+            chatbox.setAttribute("page_id", "168523016688437");
+            chatbox.setAttribute("attribution", "setup_tool");
+
+            window.fbAsyncInit = function() {
+                FB.init({
+                xfbml            : true,
+                version          : 'v11.0'
+                });
+            };
+
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            </script>
+        <!--SCRIPT FACEBOOK MESSENGER END-->
+
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
@@ -239,8 +269,6 @@
             </div>
         </div>
         <!-- Footer End -->
-
-        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

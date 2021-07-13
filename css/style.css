@@ -944,7 +944,7 @@ a:focus {
     margin-bottom: 2rem;
     border: 1px solid rgba(0, 0, 0, .07);
     padding: 1.5rem 2rem;
-    background-image: url(/tempImg/gthieu_mini.JPG);
+    background-image: url(../tempImg/gthieu_mini.jpg);
 }
 
 .timeline-item:hover {
@@ -1191,7 +1191,7 @@ a:focus {
     width: 100%;
     margin: 45px 0 100px;
     padding: 90px 0;
-    background: linear-gradient(rgba(255, 192, 116, .7), rgba(179, 116, 40, .7)), url(../tempImg/discount_mini.JPG);
+    background: linear-gradient(rgba(255, 192, 116, .7), rgba(179, 116, 40, .7)), url(../tempImg/discount_mini.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
