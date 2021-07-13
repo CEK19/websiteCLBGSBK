@@ -2343,9 +2343,11 @@ a:focus {
 /********* Footer CSS **********/
 /*******************************/
 .pre-footer {
-    background-color: #ffffff;
+    background-color: #7c6edd;
+    position: relative;
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     height: fit-content
 }
 
@@ -2353,20 +2355,73 @@ a:focus {
     text-align: left;
 }
 
+.editlogo {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url('/tempImg/favicon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -999;
+}
+
 .pre-footer h3 {
-    color: var(--blue-charcoal);
+    color: var(--orange-pretty);
     font-weight: 650;
+    margin-bottom: 1rem;
 }
 
 .pre-footer h2 {
-    color: var(--blue-charcoal);
+    color: #fff;
     font-weight: 650;
     font-size: 50px;
+}
+
+.pre-footer p {
+    word-wrap: break-word;
+    color: #fff;
+}
+
+.pre-footer a {
+    color: #fff;
+}
+
+.pre-footer i {
+    color: var(--orange-palest);
+}
+
+.pre-footer img {
+    opacity: 0.2;
+    position: absolute;
+    left: 38rem;
+    top: 0;
+    width: 18%;
+    height: auto;
+}
+
+.pre-footer .behind-text img {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+
+
+.pre-footer a:hover,
+a:active,
+a:focus {
+    color: var(--orange-pretty);
+    outline: none;
+    text-decoration: none;
 }
 
 .pre-footer .modify-pos {
     border-right: var(--blue-charcoal);
     width: fit-content;
+}
+
+@media (min-width: 991.98px) {
+    .pre-footer .modify-pos {
+        margin-left: 3rem;
+    }
 }
 
 .pre-footer .behind-text {
@@ -2376,11 +2431,19 @@ a:focus {
     margin-right: 30px;
 }
 
+.pre-footer .behind-text h2 {
+    color: var(--orange-pretty);
+}
+
+.pre-footer .behind-text span {
+    color: #fff;
+}
+
 .footer {
     margin-top: auto;
     margin-bottom: 0px;
     padding: 1rem;
-    background: #343148;
+    background: var(--orange-palest);
     text-align: center;
     height: 70px;
 }
@@ -2392,9 +2455,13 @@ a:focus {
 
 @media (max-width: 767.98px) {
 
-    .footer .copyright p,
+    /*.footer .copyright p,
     .footer .copyright .col-md-6:last-child p {
         margin: 5px 0;
         text-align: center;
+    }*/
+    .pre-footer {
+        
     }
 }
+
