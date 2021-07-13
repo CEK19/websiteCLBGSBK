@@ -2356,7 +2356,7 @@ a:focus {
 }
 
 .editlogo {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url('/tempImg/favicon.png');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url('../tempImg/favicon.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
