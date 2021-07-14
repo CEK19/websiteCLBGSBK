@@ -40,35 +40,35 @@
 <body>
 
     <!--SCRIPT FACEBOOK MESSENGER START-->
-        <!-- Messenger Chat plugin Code -->
-        <div id="fb-root"></div>
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
 
-        <!-- Your Chat plugin code -->
-        <div id="fb-customer-chat" class="fb-customerchat">
-        </div>
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
 
-        <script>
+    <script>
         var chatbox = document.getElementById('fb-customer-chat');
         chatbox.setAttribute("page_id", "168523016688437");
         chatbox.setAttribute("attribution", "setup_tool");
 
-        window.fbAsyncInit = function() {
+        window.fbAsyncInit = function () {
             FB.init({
-            xfbml            : true,
-            version          : 'v11.0'
+                xfbml: true,
+                version: 'v11.0'
             });
         };
 
-        (function(d, s, id) {
+        (function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
-        </script>
+    </script>
     <!--SCRIPT FACEBOOK MESSENGER END-->
-    
+
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
@@ -117,11 +117,15 @@
     <!-- GIỚI THIỆU CLB GIA SƯ -->
     <div class="service">
         <div class="container">
+
+
             <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                 <p>Đôi nét về</p>
                 <h2>CLB Gia Sư Đại học Bách Khoa</h2>
             </div>
-            <div class="text-center standard-item wow zoomIn" id="clubIntro">
+
+
+            <div class="text-center standard-item wow zoomIn text-justify" id="clubIntro">
                 <p>CLB Gia Sư Trường Đại học Bách Khoa là CLB gia sư <b>chính thức và duy nhất</b> trực thuộc trường Đại
                     học
                     Bách Khoa - ĐHQG-HCM, dưới sự giám sát của Hội Sinh viên và Trung tâm Hỗ trợ Sinh viên & Việc Làm
@@ -323,18 +327,18 @@
                 <div class="row">
                     <div class="col-lg-3 col-xs-4">
                         <div class="modify-pos">
-                            
+
                             <div class="behind-text">
-                                
+
                                 <h2>GS<span>BK</span></h2>
                                 <p>Khơi nguồn trí thức</p>
                                 <p>Tiếp sức đam mê</p>
-                                
+
                             </div>
                         </div>
 
                     </div>
-                <!--    <div class="col-lg-2 col-md-2 col-xs-4">
+                    <!--    <div class="col-lg-2 col-md-2 col-xs-4">
                         <h3>Tìm hiểu</h3>
                         <p><a href="index.html">Trang chủ</a></p>
                         <p><a href="about.html">Thông tin chi tiết</a></p>
@@ -345,14 +349,19 @@
                 -->
                     <div class="col-lg-3 col-md-4 col-xs-4">
                         <h3>Địa chỉ</h3>
-                        <p><i class="fas fa-map-marker-alt"></i> Văn phòng tư vấn tuyển sinh ĐH Bách khoa (Kios 98, cổng 142 Tô Hiến Thành) Ho Chi Minh City, Vietnam</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Văn phòng tư vấn tuyển sinh ĐH Bách khoa (Kios 98, cổng
+                            142 Tô Hiến Thành) Ho Chi Minh City, Vietnam</p>
                         <p><i class="fas fa-building"></i> Trường ĐH Bách Khoa, Linh Trung, Thủ Đức, Tp.HCM</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-4">
                         <h3>Theo dõi</h3>
-                        <p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/clbgsbk" target="blank"> Gia sư Trường ĐH Bách Khoa - ĐHQG TPHCM</a></p>
-                        <p><i class="fab fa-youtube"></i><a href="https://www.youtube.com/channel/UC8KLMlWmKrIV05cq0g_yNPg" target="blank"> GIA SƯ ĐẠI HỌC BÁCH KHOA</a></p>
-                        <p><i class="fab fa-tiktok"></i><a href="https://www.tiktok.com/@gsbk54?lang=vi-VN" target="blank"> CLB Gia Sư ĐH Bách Khoa</a></p>
+                        <p><i class="fab fa-facebook-f"></i><a href="https://www.facebook.com/clbgsbk" target="blank">
+                                Gia sư Trường ĐH Bách Khoa - ĐHQG TPHCM</a></p>
+                        <p><i class="fab fa-youtube"></i><a
+                                href="https://www.youtube.com/channel/UC8KLMlWmKrIV05cq0g_yNPg" target="blank"> GIA SƯ
+                                ĐẠI HỌC BÁCH KHOA</a></p>
+                        <p><i class="fab fa-tiktok"></i><a href="https://www.tiktok.com/@gsbk54?lang=vi-VN"
+                                target="blank"> CLB Gia Sư ĐH Bách Khoa</a></p>
                         <p><i class="fab fa-instagram"></i> Instagram</p>
                     </div>
                     <div class="col-lg-3 col-md-4 col-xs-4">
@@ -361,12 +370,12 @@
                         <p><i class="fas fa-phone-alt"></i> 028 6275 0205</p>
                         <p><i class="fas fa-phone-alt"></i> 028 6650 5074</p>
                     </div>
-                  </div>
+                </div>
             </div>
         </div>
     </div>
 
-    
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>

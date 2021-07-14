@@ -6,21 +6,21 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
 }
 
 #clubIntro {
     text-align: justify;
     text-justify: inter-word;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 #destiny {
     text-align: center;
     margin-top: 0%;
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 15%;
+    margin-left: 15%;
     font-size: 16px;
 }
 
