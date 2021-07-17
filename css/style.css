@@ -2374,6 +2374,7 @@ a:focus {
 .pre-footer p {
     word-wrap: break-word;
     color: #fff;
+    text-decoration: none;
 }
 
 .pre-footer a {
