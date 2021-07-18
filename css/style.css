@@ -2388,6 +2388,7 @@ a:focus {
 
 .pre-footer a {
     color: #fff;
+    text-decoration: none;
 }
 
 .pre-footer i {
