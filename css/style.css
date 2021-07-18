@@ -918,7 +918,7 @@ a:focus {
 
 .timeline-left {
     position: relative;
-    margin: 0 auto;
+    margin: 2.5rem auto;
 }
   
 .timeline-left::after {
@@ -931,7 +931,11 @@ a:focus {
     left: 50%;
 }
 
-/* .timeline .timeline-right .timeline-item {
+.timeline-right {
+    margin: 2.5rem auto;
+}
+
+/* .timeline-item {
     border: 5px black;
     padding: 1.5rem 1rem;
     margin: 2rem 1rem;
@@ -947,7 +951,7 @@ a:focus {
     padding: 1.5rem 2rem;
     background: white;
     transition-duration: .3s;
-    /* background-image: url(../tempImg/gthieu_mini.jpg); */
+    /* background-image: url(../img/gthieu_mini.jpg); */
 }
 
 .timeline-item:hover {
@@ -960,19 +964,19 @@ a:focus {
     /* padding: 0 2rem 2rem; */
 }
 
-.timeline-item:hover p span{
-    color: var(--blue-charcoal);
-}
-
-.timeline-item:hover a h3 {
-    color: var(--orange-pretty);
-}
-
 .timeline-item a h3 {
     margin-bottom: 1.5rem;
     font-size: 24px;
     font-weight: 600;
 }
+
+/* .timeline-item a img {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: .15rem solid var(--blue-charcoal); 
+    margin-left: 1rem;
+} */
 
 .timeline-item p span {
     background: var(--orange-pretty);
@@ -980,8 +984,17 @@ a:focus {
     border-radius: 0.75rem;
 }
 
+.timeline-item:hover a h3 {
+    color: var(--orange-pretty);
+}
+
+.timeline-item:hover p span{
+    color: var(--blue-charcoal);
+}
+
 .timeline-item img {
-    width: 100%;
+    position: relative;
+    width: 15rem;
 }
 
 /* The circles on the timeline */
@@ -1186,7 +1199,7 @@ a:focus {
     width: 100%;
     margin: 45px 0 100px;
     padding: 90px 0;
-    background: linear-gradient(rgba(255, 192, 116, .7), rgba(179, 116, 40, .7)), url(../tempImg/discount_mini.jpg);
+    background: linear-gradient(rgba(255, 192, 116, .7), rgba(179, 116, 40, .7)), url(../img/discount_mini.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -2343,15 +2356,11 @@ a:focus {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    height: fit-content
-}
-
-.pre-footer .row {
-    text-align: left;
+    height: fit-content;
 }
 
 .editlogo {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url('../tempImg/favicon.png');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url('../img/favicon.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -2374,6 +2383,7 @@ a:focus {
 .pre-footer p {
     word-wrap: break-word;
     color: #fff;
+    text-decoration: none;
 }
 
 .pre-footer a {
@@ -2400,11 +2410,7 @@ a:focus {
     margin-bottom: 0.5rem;
 }
 
-
-
-.pre-footer a:hover,
-a:active,
-a:focus {
+.pre-footer a:hover {
     color: var(--orange-pretty);
     outline: none;
     text-decoration: none;
