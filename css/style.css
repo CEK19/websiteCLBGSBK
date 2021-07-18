@@ -2355,7 +2355,7 @@ a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    z-index: -999;
+    z-index: 1;
 }
 
 .pre-footer h3 {
