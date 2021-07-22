@@ -916,6 +916,10 @@ a:focus {
     font-size: 16px;
 }
 
+#activity-content {
+    padding: 0 3rem;
+}
+
 .timeline-left {
     position: relative;
     margin: 2.5rem auto;
@@ -934,13 +938,6 @@ a:focus {
 .timeline-right {
     margin: 2.5rem auto;
 }
-
-/* .timeline-item {
-    border: 5px black;
-    padding: 1.5rem 1rem;
-    margin: 2rem 1rem;
-    bottom: 2rem;
-} */
 
 .timeline-item {
     position: relative;
@@ -970,14 +967,6 @@ a:focus {
     font-weight: 600;
 }
 
-/* .timeline-item a img {
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 50%;
-    border: .15rem solid var(--blue-charcoal); 
-    margin-left: 1rem;
-} */
-
 .timeline-item p span {
     background: var(--orange-pretty);
     padding: 0.15rem 0.5rem;
@@ -994,7 +983,9 @@ a:focus {
 
 .timeline-item img {
     position: relative;
-    width: 15rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-right: 0.25rem;
 }
 
 /* The circles on the timeline */
