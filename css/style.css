@@ -981,11 +981,16 @@ a:focus {
     color: var(--blue-charcoal);
 }
 
-.timeline-item img {
+.timeline-item #timeline-icon {
     position: relative;
     width: 2.5rem;
     border-radius: 50%;
     margin-right: 0.25rem;
+}
+
+.timeline-item img {
+    position: inherit;
+    width: 100%;
 }
 
 /* The circles on the timeline */
@@ -1036,151 +1041,6 @@ a:focus {
         left: -4.9rem;
     }
 }
-
-
-
-/*******************************/
-/********** Class CSS **********/
-/*******************************/
-.class {
-    position: relative;
-    padding: 45px 0 15px 0;
-}
-
-.class #class-filter {
-    padding: 0;
-    margin: -15px 0 25px 0;
-    list-style: none;
-    font-size: 0;
-    text-align: center;
-}
-
-.class #class-filter li {
-    cursor: pointer;
-    display: inline-block;
-    margin: 5px;
-    padding: 6px 12px;
-    color: var(--blue-charcoal);
-    font-size: 14px;
-    font-weight: 400;
-    border-radius: 0;
-    background: none;
-    border: 1px solid var(--blue-charcoal);
-    transition: .3s;
-}
-
-.class #class-filter li:hover,
-.class #class-filter li.filter-active {
-    background: var(--blue-charcoal);
-    color: var(--orange-pretty);
-}
-
-.class .class-item {
-    position: relative;
-    margin-bottom: 30px;
-    overflow: hidden;
-    transition: .3s;
-}
-
-.class .class-wrap {
-    position: relative;
-    width: 100%;
-}
-
-.class .class-img {
-    position: relative;
-}
-
-.class .class-img img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.class .class-text {
-    position: relative;
-    padding: 30px 30px 25px 30px;
-    border-right: 1px solid rgba(0, 0, 0, .07);
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
-    border-left: 1px solid rgba(0, 0, 0, .07);
-}
-
-.class .class-text h2 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.class .class-teacher {
-    position: relative;
-    height: 40px;
-    margin-top: -50px;
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    background: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    border-radius: 40px;
-}
-
-.class .class-teacher img {
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    background: var(--orange-pretty);
-}
-
-.class .class-teacher h3 {
-    width: calc(100% - 95px);
-    font-size: 15px;
-    font-weight: 600;
-    margin: 0 0 0 15px;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-.class .class-teacher a {
-    width: 40px;
-    height: 40px;
-    padding: 0 0 3px 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    font-weight: 100;
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
-    border-radius: 40px;
-    transition: .3s;
-}
-
-.class .class-wrap:hover .class-teacher a {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
-}
-
-.class .class-meta {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
-.class .class-meta p {
-    margin: 0;
-    font-size: 14px;
-}
-
-.class .class-meta p i {
-    margin-right: 5px;
-    color: var(--blue-charcoal);
-}
-
-.class .class-meta p:first-child {
-    margin-right: 10px;
-}
-
-
 
 /*******************************/
 /********* Pricing CSS *********/
@@ -1379,113 +1239,6 @@ a:focus {
     color: var(--blue-charcoal);
     background: var(--orange-pretty);
 }
-
-
-/*******************************/
-/*********** Team CSS **********/
-/*******************************/
-.team {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-}
-
-.team .team-item {
-    position: relative;
-    margin-bottom: 30px;
-    padding: 15px;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, .07);
-}
-
-.team .team-img {
-    position: relative;
-    overflow: hidden;
-}
-
-.team .team-img img {
-    position: relative;
-    width: 100%;
-}
-
-.team .team-social {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .5s;
-}
-
-.team .team-social a {
-    position: relative;
-    margin: 0 3px;
-    margin-top: 100px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px;
-    font-size: 16px;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
-    opacity: 0;
-}
-
-.team .team-social a:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
-}
-
-
-.team .team-item:hover .team-social {
-    background: rgba(256, 256, 256, .5);
-}
-
-.team .team-item:hover .team-social a:first-child {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s 0s;
-}
-
-.team .team-item:hover .team-social a:nth-child(2) {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s .1s;
-}
-
-.team .team-item:hover .team-social a:nth-child(3) {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s .2s;
-}
-
-.team .team-item:hover .team-social a:nth-child(4) {
-    opacity: 1;
-    margin-top: 0;
-    transition: .3s .3s;
-}
-
-.team .team-text {
-    position: relative;
-    padding: 25px 15px 10px 15px;
-    text-align: center;
-    background: #ffffff;
-}
-
-.team .team-text h2 {
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.team .team-text p {
-    margin: 0;
-}
-
 
 /*******************************/
 /******* Testimonial CSS *******/
@@ -1719,68 +1472,6 @@ a:focus {
 
 .blog .pagination .disabled .page-link {
     color: #999999;
-}
-
-
-/*******************************/
-/******** Portfolio CSS ********/
-/*******************************/
-.portfolio {
-    position: relative;
-    padding: 45px 0 15px 0;
-}
-
-.portfolio #portfolio-filter {
-    padding: 0;
-    margin: -15px 0 25px 0;
-    list-style: none;
-    font-size: 0;
-    text-align: center;
-}
-
-.portfolio #portfolio-filter li {
-    cursor: pointer;
-    display: inline-block;
-    margin: 5px;
-    padding: 6px 12px;
-    color: var(--blue-charcoal);
-    font-size: 14px;
-    font-weight: 400;
-    border-radius: 0;
-    background: none;
-    border: 1px solid var(--blue-charcoal);
-    transition: .3s;
-}
-
-.portfolio #portfolio-filter li:hover,
-.portfolio #portfolio-filter li.filter-active {
-    background: var(--blue-charcoal);
-    color: var(--orange-pretty);
-}
-
-.portfolio .portfolio-item {
-    position: relative;
-    margin-bottom: 30px;
-    overflow: hidden;
-    transition: .3s;
-}
-
-.portfolio .portfolio-wrap {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.portfolio img {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: .5s;
-}
-
-.portfolio .portfolio-wrap:hover img {
-    transform: rotate(5deg) scale(1.12);
 }
 
 
