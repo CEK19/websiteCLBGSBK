@@ -9,4 +9,4 @@
 
 Đây chỉ là demo thui kakaka 🔥
 
-Ghé thăm bọn tui tại ![facebook này](https://fb.com/clbgsbk)!
+Ghé thăm bọn tui tại [facebook này](https://fb.com/clbgsbk)!
