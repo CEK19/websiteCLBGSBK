@@ -3,23 +3,7 @@
     
     // Initiate the wowjs
     new WOW().init();
-    
-    
-    // Back to top button
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 200) {
-            $('.back-to-top').fadeIn('slow');
-        } else {
-            $('.back-to-top').fadeOut('slow');
-        }
-    });
-    
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-        return false;
-    });
-    
-    
+  
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
@@ -29,14 +13,15 @@
         }
     });
     
-    
     // Dropdown on mouse hover
     $(document).ready(function () {
         function toggleNavbarMethod() {
             if ($(window).width() > 992) {
-                $('.navbar .dropdown').on('mouseover', function () {
+                $('.navbar .dropdown')
+                .on('mouseover', function () {
                     $('.dropdown-toggle', this).trigger('click');
-                }).on('mouseout', function () {
+                })
+                .on('mouseout', function () {
                     $('.dropdown-toggle', this).trigger('click').blur();
                 });
             } else {
@@ -46,7 +31,6 @@
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
     });
-
 
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
@@ -69,7 +53,6 @@
             }
         }
     });
-    
     
     // Blogs carousel
     $(".blog-carousel").owlCarousel({
@@ -95,32 +78,6 @@
                 items:3
             }
         }
-    });
-    
-    
-    // Class filter
-    var classIsotope = $('.class-container').isotope({
-        itemSelector: '.class-item',
-        layoutMode: 'fitRows'
-    });
-
-    $('#class-filter li').on('click', function () {
-        $("#class-filter li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-        classIsotope.isotope({filter: $(this).data('filter')});
-    });
-    
-    
-    // Portfolio filter
-    var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-    });
-
-    $('#portfolio-filter li').on('click', function () {
-        $("#portfolio-filter li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-        portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
     
 })(jQuery);

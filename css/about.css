@@ -1,0 +1,408 @@
+/***************************************************/
+/********* LEGACY CODE BY TRAN PHUONG TUNG *********/
+/***************************************************/
+
+#introImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#clubIntro {
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+#destiny {
+    text-align: center;
+    margin-top: 0%;
+    margin-right: 15%;
+    margin-left: 15%;
+    font-size: 16px;
+}
+
+/*******************************/
+/********* Service CSS *********/
+/*******************************/
+.service {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.service .service-item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.service .service-item:hover,
+.service .service-item.active {
+    background: var(--blue-charcoal);
+    color: #ffffff;
+}
+
+.service .service-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.service .service-icon i {
+    position: relative;
+    font-size: 50px;
+    color: var(--blue-charcoal);
+    z-index: 3;
+}
+
+.service .service-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.service .service-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.3);
+        opacity: 0;
+    }
+}
+
+.service .service-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.service .service-item:hover h3,
+.service .service-item.active h3 {
+    color: var(--orange-pretty);
+}
+
+.service .service-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/*******************************/
+/********* Standard CSS *********/
+/*******************************/
+.standard {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.standard .standard-item {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.standard .standard-item:hover,
+.standard .standard-item.active {
+    background: var(--blue-charcoal);
+    color: #ffffff;
+}
+
+.standard .standard-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.standard .standard-icon i {
+    position: relative;
+    font-size: 50px;
+    color: var(--blue-charcoal);
+    z-index: 3;
+}
+
+.standard .standard-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.standard .standard-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}
+
+.standard .standard-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.standard .standard-item:hover h3,
+.standard .standard-item.active h3 {
+    color: var(--orange-pretty);
+}
+
+.standard .standard-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/*******************************/
+/********* CONTACT-TO-FIND CSS *********/
+/*******************************/
+.contact-to-find {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.contact-to-find .contact-to-find-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.contact-to-find .contact-to-find-header,
+.contact-to-find .contact-to-find-body,
+.contact-to-find .contact-to-find-footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.contact-to-find .contact-to-find-header {
+    padding: 30px;
+    background: var(--orange-pretty);
+    color: var(--blue-charcoal);
+}
+
+.contact-to-find .contact-to-find-item.featured-item .contact-to-find-header {
+    background: var(--blue-charcoal);
+    color: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-status {
+    margin-top: -30px;
+    text-align: right;
+}
+
+.contact-to-find .contact-to-find-status span {
+    position: relative;
+    display: inline-block;
+    height: 30px;
+    right: -30px;
+    padding: 7px 10px;
+    text-align: center;
+    color: var(--blue-charcoal);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    background: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-title h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.contact-to-find .contact-to-find-prices h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.contact-to-find .contact-to-find-prices h2 small {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-left: -12px;
+}
+
+.contact-to-find .contact-to-find-prices h2 span {
+    margin-left: 1px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-to-find .contact-to-find-item.featured-item h2 {
+    color: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-body {
+    padding: 15px 0 20px 0;
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-bottom: none;
+}
+
+.contact-to-find .contact-to-find-description ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contact-to-find .contact-to-find-description ul li {
+    padding: 7px;
+    margin-left: 13%;
+    text-align: left;
+}
+
+.contact-to-find .contact-to-find-description ul li:last-child {
+    border: none;
+}
+
+.contact-to-find .contact-to-find-description hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contact-to-find .contact-to-find-action {
+    border: 1px solid rgba(0, 0, 0, .07);
+    border-top: none;
+}
+
+.contact-to-find .contact-to-find-action a.btn {
+    margin-bottom: 30px;
+    padding: 12px 20px;
+    color: var(--blue-charcoal);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 0;
+    background: var(--orange-pretty);
+    transition: .3s;
+}
+
+.contact-to-find .contact-to-find-action a:hover,
+.contact-to-find .contact-to-find-item.featured-item .contact-to-find-action a {
+    color: var(--orange-pretty);
+    background: var(--blue-charcoal);
+}
+
+.contact-to-find .contact-to-find-item.featured-item .contact-to-find-action a:hover {
+    color: var(--blue-charcoal);
+    background: var(--orange-pretty);
+}
+
+.contact-to-find .contact-to-find-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.contact-to-find .contact-to-find-icon i {
+    position: relative;
+    font-size: 50px;
+    color: var(--blue-charcoal);
+    z-index: 3;
+}
+
+.contact-to-find .contact-to-find-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.contact-to-find .contact-to-find-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--orange-pretty);
+    border-radius: 50%;
+    transition: all 200ms;
+}

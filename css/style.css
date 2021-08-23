@@ -69,34 +69,6 @@ a:focus {
     max-width: 1366px;
 }
 
-.back-to-top {
-    position: fixed;
-    display: none;
-    background: var(--orange-pretty);
-    width: 44px;
-    height: 44px;
-    text-align: center;
-    line-height: 1;
-    font-size: 22px;
-    right: 15px;
-    bottom: 15px;
-    transition: background 0.5s;
-    z-index: 9;
-}
-
-.back-to-top:hover {
-    background: var(--blue-charcoal);
-}
-
-.back-to-top:hover i {
-    color: var(--orange-pretty);
-}
-
-.back-to-top i {
-    color: var(--blue-charcoal);
-    padding-top: 10px;
-}
-
 
 /**********************************/
 /*********** Nav Bar CSS **********/
@@ -1106,10 +1078,6 @@ a:focus {
     background: #ffffff;
 }
 
-
-/*******************************/
-/********* Pricing CSS *********/
-/*******************************/
 .price {
     position: relative;
     width: 100%;
