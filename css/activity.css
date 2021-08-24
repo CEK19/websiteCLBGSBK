@@ -25,7 +25,7 @@
     content: '';
     position: absolute;
     width: 0.25rem;
-    background-color: var(--blue-charcoal);
+    background-color: var(--secondary-color);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -49,7 +49,7 @@
 
 .timeline-item:hover {
     color: white;
-    background: var(--blue-charcoal);
+    background: var(--secondary-color);
 }
 
 .timeline-item p {
@@ -64,17 +64,17 @@
 }
 
 .timeline-item p span {
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     padding: 0.15rem 0.5rem;
     border-radius: 0.75rem;
 }
 
 .timeline-item:hover a h3 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .timeline-item:hover p span{
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
 }
 
 .timeline-item #timeline-icon {
@@ -97,7 +97,7 @@
     height: 2rem;
     left: -4.9rem;
     background-color: white;
-    border: 0.5rem solid var(--orange-pretty);
+    border: 0.5rem solid var(--primary-color);
     top: 1.5rem;
     border-radius: 50%;
     z-index: 1;

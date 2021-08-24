@@ -54,7 +54,7 @@
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     transition: .3s;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .blog .blog-item a.btn:hover {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .blog .blog-meta {
@@ -99,28 +99,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     font-size: 22px;
     transition: .3s;
 }
 
 .blog .owl-nav .owl-prev:hover,
 .blog .owl-nav .owl-next:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 .blog .pagination .page-link {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     border-radius: 0;
-    border-color: var(--blue-charcoal);
+    border-color: var(--secondary-color);
 }
 
 .blog .pagination .page-link:hover,
 .blog .pagination .page-item.active .page-link {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .blog .pagination .disabled .page-link {
@@ -162,8 +162,8 @@
 }
 
 .single .single-tags a:hover {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .single .single-bio {
@@ -276,16 +276,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
     font-size: 16px;
     transition: .3s;
 }
 
 .single .related-slider .owl-nav .owl-prev:hover,
 .single .related-slider .owl-nav .owl-next:hover {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .single .single-comment {
@@ -342,13 +342,13 @@
 .single .comment-text .btn {
     padding: 3px 10px;
     font-size: 14px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     background: #dddddd;
     border-radius: 0;
 }
 
 .single .comment-text .btn:hover {
-    background: var(--orange-pretty);
+    background: var(--primary-color);
 }
 
 .single .comment-form {
@@ -377,13 +377,13 @@
 
 .single .comment-form .btn {
     padding: 15px 30px;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .single .comment-form .btn:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 
@@ -421,7 +421,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
 }
 
 .sidebar .sidebar-widget .search-widget {
@@ -445,7 +445,7 @@
     height: 40px;
     padding: 0;
     font-size: 25px;
-    color: var(--orange-pretty);
+    color: var(--primary-color);
     background: none;
     border-radius: 0;
     border: none;
@@ -453,7 +453,7 @@
 }
 
 .sidebar .search-widget .btn:hover {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
 }
 
 .sidebar .sidebar-widget .recent-post {
@@ -465,15 +465,15 @@
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: 0;
 }
 
 .sidebar .tab-post .nav.nav-pills .nav-link:hover,
 .sidebar .tab-post .nav.nav-pills .nav-link.active {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 .sidebar .tab-post .tab-content {
@@ -513,7 +513,7 @@
     content: '\f105';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: var(--orange-pretty);
+    color: var(--primary-color);
     left: 1px;
 }
 
@@ -538,8 +538,8 @@
 }
 
 .single .tag-widget a:hover {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .sidebar .image-widget {

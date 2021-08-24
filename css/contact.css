@@ -21,9 +21,9 @@
     height: 50px;
     padding: 12px 0;
     font-size: 25px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     margin-bottom: 15px;
-    border: 1px solid var(--orange-pretty);
+    border: 1px solid var(--primary-color);
     border-radius: 50px;
 }
 
@@ -55,15 +55,15 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: 0;
     transition: .3s;
 }
 
 .contact .contact-form .btn:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 .contact .help-block ul {
@@ -86,7 +86,7 @@
 .contact .contact-icon i {
     position: relative;
     font-size: 40px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     z-index: 3;
 }
 
@@ -100,7 +100,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border-radius: 50%;
     animation: pulse-border 2000ms ease-out infinite;
 }
@@ -115,7 +115,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -146,13 +146,13 @@
 
 .contact-to-find .contact-to-find-header {
     padding: 30px;
-    background: var(--orange-pretty);
-    color: var(--blue-charcoal);
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .contact-to-find .contact-to-find-item.featured-item .contact-to-find-header {
-    background: var(--blue-charcoal);
-    color: var(--orange-pretty);
+    background: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .contact-to-find .contact-to-find-status {
@@ -167,11 +167,11 @@
     right: -30px;
     padding: 7px 10px;
     text-align: center;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 14px;
     font-weight: bold;
     line-height: 14px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
 }
 
 .contact-to-find .contact-to-find-title h2 {
@@ -202,7 +202,7 @@
 }
 
 .contact-to-find .contact-to-find-item.featured-item h2 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .contact-to-find .contact-to-find-body {
@@ -240,24 +240,24 @@
 .contact-to-find .contact-to-find-action a.btn {
     margin-bottom: 30px;
     padding: 12px 20px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     transition: .3s;
 }
 
 .contact-to-find .contact-to-find-action a:hover,
 .contact-to-find .contact-to-find-item.featured-item .contact-to-find-action a {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .contact-to-find .contact-to-find-item.featured-item .contact-to-find-action a:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 .contact-to-find .contact-to-find-icon {
@@ -274,7 +274,7 @@
 .contact-to-find .contact-to-find-icon i {
     position: relative;
     font-size: 50px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     z-index: 3;
 }
 
@@ -288,7 +288,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border-radius: 50%;
     animation: pulse-border 2000ms ease-out infinite;
 }
@@ -303,7 +303,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border-radius: 50%;
     transition: all 200ms;
 }

@@ -6,8 +6,8 @@
     width: 100%;
     margin-bottom: 45px;
     padding: 90px 0;
-    /* background: var(--orange-pretty); */
-    background-image: linear-gradient(to bottom right, var(--orange-palest), var(--orange-pretty));
+    /* background: var(--primary-color); */
+    background-image: linear-gradient(to bottom right, var(--orange-palest), var(--primary-color));
     overflow: hidden;
 }
 
@@ -35,14 +35,14 @@
 }
 
 .hero .hero-text h1 {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
 .hero .hero-text p {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 18px;
     margin-bottom: 25px;
 }
@@ -52,14 +52,14 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: 0;
     transition: .3s;
 }
 
 .hero .hero-btn .btn:hover {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     background: #ffffff;
 }
 
@@ -159,15 +159,15 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: 0;
     transition: .3s;
 }
 
 .about .about-text a.btn:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 @media (max-width: 767.98px) {
@@ -199,7 +199,7 @@
 
 .service .service-item:hover,
 .service .service-item.active {
-    background: var(--blue-charcoal);
+    background: var(--secondary-color);
     color: #ffffff;
 }
 
@@ -217,7 +217,7 @@
 .service .service-icon i {
     position: relative;
     font-size: 50px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     z-index: 3;
 }
 
@@ -231,7 +231,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border-radius: 50%;
     animation: pulse-border 2000ms ease-out infinite;
 }
@@ -246,7 +246,7 @@
     display: block;
     width: 80px;
     height: 80px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border-radius: 50%;
     transition: all 200ms;
 }
@@ -272,7 +272,7 @@
 
 .service .service-item:hover h3,
 .service .service-item.active h3 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .service .service-item p {
@@ -333,14 +333,14 @@
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
     border-radius: 0;
     transition: .3s;
 }
 
 .discount .discount-text .btn:hover {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     background: #ffffff;
 }
 
@@ -367,13 +367,13 @@
 
 .price .price-header {
     padding: 30px;
-    background: var(--orange-pretty);
-    color: var(--blue-charcoal);
+    background: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .price .price-item.featured-item .price-header {
-    background: var(--blue-charcoal);
-    color: var(--orange-pretty);
+    background: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .price .price-status {
@@ -388,11 +388,11 @@
     right: -30px;
     padding: 7px 10px;
     text-align: center;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 14px;
     font-weight: bold;
     line-height: 14px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
 }
 
 .price .price-title h2 {
@@ -422,7 +422,7 @@
 }
 
 .price .price-item.featured-item h2 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .price .price-body {
@@ -454,24 +454,24 @@
 .price .price-action a.btn {
     margin-bottom: 30px;
     padding: 12px 20px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     border-radius: 0;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     transition: .3s;
 }
 
 .price .price-action a:hover,
 .price .price-item.featured-item .price-action a {
-    color: var(--orange-pretty);
-    background: var(--blue-charcoal);
+    color: var(--primary-color);
+    background: var(--secondary-color);
 }
 
 .price .price-item.featured-item .price-action a:hover {
-    color: var(--blue-charcoal);
-    background: var(--orange-pretty);
+    color: var(--secondary-color);
+    background: var(--primary-color);
 }
 
 /*******************************/
@@ -513,7 +513,7 @@
     margin-top: -70px;
     padding: 75px 25px 25px 25px;
     text-align: center;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     border: 1px solid rgba(0, 0, 0, .07);
     height: 250px;
 }
@@ -548,11 +548,11 @@
 }
 
 .testimonial .owl-item.center .testimonial-text {
-    background: var(--blue-charcoal);
+    background: var(--secondary-color);
 }
 
 .testimonial .owl-item.center .testimonial-text h3 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .testimonial .owl-item.center .testimonial-text p,
@@ -571,9 +571,9 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
 }
 
 .testimonial .owl-dot.active {
-    background: var(--blue-charcoal);
+    background: var(--secondary-color);
 }

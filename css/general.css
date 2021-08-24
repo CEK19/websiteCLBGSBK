@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
     outline: none;
     text-decoration: none;
 }
@@ -75,7 +75,7 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     transition: .5s;
 }
 
@@ -84,7 +84,7 @@ a:focus {
 }
 
 .navbar.nav-sticky .navbar-brand {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .navbar .navbar-brand img {
@@ -97,7 +97,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
 }
 
 .navbar.nav-sticky .nav-link,
@@ -105,7 +105,7 @@ a:focus {
 .navbar.nav-sticky .nav-link:hover,
 .navbar.nav-sticky .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -118,7 +118,7 @@ a:focus {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
 }
 
 @media (min-width: 992px) {
@@ -133,7 +133,7 @@ a:focus {
 
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: var(--blue-charcoal) !important;
+        background: var(--secondary-color) !important;
     }
 
     .navbar a.nav-link {
@@ -147,7 +147,7 @@ a:focus {
 @media (max-width: 991.98px) {
     .navbar {
         padding: 15px;
-        background: var(--blue-charcoal) !important;
+        background: var(--secondary-color) !important;
     }
 
     .navbar .navbar-brand span {
@@ -163,7 +163,7 @@ a:focus {
     }
 
     .navbar.nav-sticky .navbar-brand {
-        color: var(--orange-pretty);
+        color: var(--primary-color);
     }
 
     .navbar a.nav-link {
@@ -172,7 +172,7 @@ a:focus {
 
     .navbar .dropdown-menu {
         box-shadow: none;
-        background-color: var(--orange-pretty);
+        background-color: var(--primary-color);
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -192,12 +192,12 @@ a:focus {
     margin-bottom: 45px;
     padding: 150px 0 90px 0;
     text-align: center;
-    background: linear-gradient(to bottom right, var(--orange-palest), var(--orange-pretty));
+    background: linear-gradient(to bottom right, var(--orange-palest), var(--primary-color));
 }
 
 .page-header h2 {
     position: relative;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     font-size: 60px;
     font-weight: 700;
 }
@@ -206,7 +206,7 @@ a:focus {
     position: relative;
     padding: 0 12px;
     font-size: 22px;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
     text-decoration: none;
 }
 
@@ -222,7 +222,7 @@ a:focus {
     top: -2px;
     right: -7px;
     text-align: center;
-    color: var(--blue-charcoal);
+    color: var(--secondary-color);
 }
 
 .page-header a:last-child::after {
@@ -268,7 +268,7 @@ a:focus {
     top: 11px;
     right: -30px;
     left: -30px;
-    background: var(--orange-pretty);
+    background: var(--primary-color);
     z-index: -1;
 }
 
@@ -306,7 +306,7 @@ a:focus {
 }
 
 .pre-footer h3 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
     font-weight: 650;
     margin: 0.5rem 0 1rem;
     /* margin-bottom: 1rem; */
@@ -350,13 +350,13 @@ a:focus {
 }
 
 .pre-footer a:hover {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
     outline: none;
     text-decoration: none;
 }
 
 .pre-footer .modify-pos {
-    border-right: var(--blue-charcoal);
+    border-right: var(--secondary-color);
     width: fit-content;
 }
 
@@ -374,7 +374,7 @@ a:focus {
 }
 
 .pre-footer .behind-text h2 {
-    color: var(--orange-pretty);
+    color: var(--primary-color);
 }
 
 .pre-footer .behind-text span {
