@@ -3,7 +3,7 @@
     
     // Initiate the wowjs
     new WOW().init();
-  
+
     // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {

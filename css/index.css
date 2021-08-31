@@ -105,17 +105,17 @@
 
 @media (max-width: 575.98px) {
     .hero .hero-text h1 {
-        font-size: 25px;
+        font-size: 32px;
         font-weight: 600;
     }
 
     .hero .hero-text p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .hero .hero-text .btn {
-        padding: 8px 10px;
-        font-size: 12px;
+        padding: 12px 14px;
+        font-size: 16px;
         font-weight: 400;
         letter-spacing: 0;
     }
@@ -149,6 +149,7 @@
 }
 
 .about .about-text p {
+    text-align: justify;
     font-size: 16px;
 }
 
@@ -161,7 +162,7 @@
     letter-spacing: 1px;
     color: var(--primary-color);
     background: var(--secondary-color);
-    border-radius: 0;
+    border-radius: 0px;
     transition: .3s;
 }
 
