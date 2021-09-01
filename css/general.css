@@ -121,10 +121,6 @@ a:focus {
     background: var(--primary-color);
 }
 
-#navbarCollapse {
-    margin: 2rem 0 0;
-}
-
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
