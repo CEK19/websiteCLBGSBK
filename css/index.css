@@ -155,7 +155,7 @@
 
 .about .about-text a.btn {
     position: relative;
-    margin-top: 15px;
+    margin: 15px auto;
     padding: 12px 20px;
     font-size: 14px;
     font-weight: 600;
@@ -164,6 +164,8 @@
     background: var(--secondary-color);
     border-radius: 0px;
     transition: .3s;
+    display: block;
+    width: 18rem;
 }
 
 .about .about-text a.btn:hover {

@@ -121,6 +121,11 @@ a:focus {
     background: var(--primary-color);
 }
 
+.navbar .show {
+    margin-top: 2rem;
+    transition: .1s;
+}
+
 @media (min-width: 992px) {
     .navbar {
         position: absolute;
