@@ -8,6 +8,19 @@
     --secondary-color: var(--blue-charcoal);
 }
 
+::selection {
+    background:var(--primary-color); 
+    color:var(--secondary-color);
+}
+::-moz-selection {
+    background:var(--primary-color); 
+    color:var(--secondary-color);
+}
+::-webkit-selection {
+    background:var(--primary-color); 
+    color:var(--secondary-color);
+}
+
 body {
     color: #797979;
     background: #ffffff;
