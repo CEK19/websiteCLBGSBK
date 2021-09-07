@@ -32,6 +32,21 @@
         $(window).resize(toggleNavbarMethod);
     });
 
+    // Fix bug display of Ipad
+    $(window).bind("resize", function(){
+        function checkIpadDevice() {
+            if($(window).width() >= 993 && $(window).width() < 1180) {
+                $(".price .price-body").css("height", "18rem");
+                console.log("add");
+            }
+            else {
+                $(".price .price-body").css("height", "");
+                console.log("remove");
+            }
+        }
+        checkIpadDevice();
+    })
+    
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         center: true,
