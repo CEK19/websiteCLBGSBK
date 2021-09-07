@@ -207,10 +207,10 @@ a:focus {
 /*******************************/
 .page-header {
     position: relative;
-    margin-bottom: 45px;
-    padding: 150px 0 90px 0;
+    margin-bottom: 0;           /*used to be 45px, but fixed for svg path*/
+    padding: 150px 0 0 0;       /*same with bottom padding used to being 90px*/
     text-align: center;
-    background: linear-gradient(to bottom right, var(--orange-palest), var(--primary-color));
+    background: var(--primary-color);
 }
 
 .page-header h2 {
