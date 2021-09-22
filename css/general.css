@@ -420,7 +420,15 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }*/
+
     .pre-footer h3 {
         margin: 1rem 0 1rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .pre-footer p {
+        font-size: 0.9rem;
     }
 }
