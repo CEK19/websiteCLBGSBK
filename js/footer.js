@@ -9,8 +9,10 @@
                         <div class="behind-text">
 
                             <h2>GS<span>BK</span></h2>
-                            <p>Khơi nguồn tri thức</p>
-                            <p>Tiếp sức đam mê</p>
+                            <p>Khơi nguồn tri thức<br>
+                            Tiếp sức đam mê</p>
+
+                            <p>&copy; 2015-2022</p>
 
                         </div>
                     </div>
